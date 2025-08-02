@@ -15,7 +15,7 @@ import Testimonialsitem from "@/components/Testimonials";
 import WhyChooseUs from "@/components/Why";
 import LoadingScreen from "@/components/LoadingScreen";
 
-export default function Page() {
+export default function MainPage() {
   const [isLoading, setIsLoading] = useState(true);
 
   const handleLoadingComplete = () => {
